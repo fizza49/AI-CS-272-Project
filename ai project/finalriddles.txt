@@ -1,0 +1,103 @@
+Order of the Books Riddle
+Three books are placed on a shelf: a Math book, a Science book, and a History book. The books must be placed in a specific order. Here are the clues:
+The Math book is not on the far left.
+The History book is not next to the Math book.
+The Science book is in the middle position.
+Can you figure out the correct order of the books?
+
+Who is in the Middle Riddle
+Three people are standing in a row: Alice (A), Bob (B), and Carol (C). The people must be arranged in a specific order based on the following clues:
+Alice is not standing next to Bob.
+Bob is standing to the left of Carol.
+Carol is standing in the middle position.
+Can you determine who is standing in the middle?
+
+Order of Fruits Riddle
+Three fruits are placed in a row: an Apple, a Banana, and a Cherry. The fruits must be arranged according to the following clues:
+The Apple is not next to the Banana.
+The Banana is to the left of the Cherry.
+The Cherry is in the middle.
+Can you figure out the correct order of the fruits?
+
+Seating Arrangement Riddle
+Four people are sitting in a row: Alice, Bob, Carol, and Dave. The seating arrangement must follow these clues:
+Alice is not sitting next to Bob.
+Carol is sitting to the left of Bob.
+Dave is sitting at the far right.
+Can you determine the seating order?
+
+Classroom Arrangement Riddle
+Four students are sitting in a classroom: Student A, Student B, Student C, and Student D. The seating arrangement follows these rules:
+Student A is not sitting next to Student B.
+Student C is sitting in the middle.
+Student D is sitting at the far right.
+Can you figure out where each student is sitting?
+
+Day of the Week Riddle
+Five days of the week are arranged in a row: Monday, Tuesday, Wednesday, Thursday, and Friday. The arrangement follows these rules:
+Monday is to the left of Wednesday.
+Wednesday is not sitting next to Friday.
+Friday is sitting in the last position.
+Can you determine the correct order of the days?
+
+Office Desk Arrangement Riddle
+Four people are sitting at office desks: Alice, Bob, Charlie, and David. The seating arrangement follows these clues:
+Alice is not sitting next to Bob.
+Charlie is sitting to the left of David.
+Alice is sitting at the leftmost desk.
+Can you determine the seating arrangement?
+
+Party Seating Riddle
+Four people are sitting at a party: Emily, Frank, Grace, and Hannah. The seating arrangement follows these clues:
+Emily is not sitting next to Grace.
+Frank is sitting to the left of Hannah.
+Grace is sitting at the rightmost position.
+Can you figure out the seating order?
+
+Box Arrangement Riddle
+Three boxes are arranged in a row: Box A, Box B, and Box C. The boxes must be placed according to the following clues:
+Box A is not next to Box B.
+Box B is to the left of Box C.
+Box C is in the last position.
+Can you determine the correct arrangement of the boxes?
+
+Tea or Coffee Riddle
+Three drinks are placed in a row: Tea, Coffee, and Juice. The drinks must be arranged based on these clues:
+Tea is to the left of Coffee.
+Tea is not next to Juice.
+Juice is in the last position.
+Can you figure out the order of the drinks?
+
+Card Suit Riddle
+Four card suits are placed in a row: Hearts, Clubs, Diamonds, and Spades. The arrangement follows these clues:
+Clubs is to the left of Spades.
+Diamonds is not next to Spades.
+Hearts is in the first position.
+Can you figure out the correct arrangement of the card suits?
+
+Book Collection Riddle
+Four books are arranged in a row: Book 1, Book 2, Book 3, and Book 4. The books must be arranged according to these clues:
+Book 2 is to the left of Book 3.
+Book 1 is not next to Book 4.
+Book 4 is in the last position.
+Can you determine the correct order of the books?
+
+Fruit Salad Riddle
+Three fruits are arranged in a row: Apple, Banana, and Orange. The fruits must be arranged based on the following clues:
+Apple is to the left of Banana.
+Banana is not next to Orange.
+Orange is in the last position.
+Can you figure out the correct order of the fruits?
+
+Animal Placement Riddle
+Three animals are placed in a row: a Cat, a Dog, and a Rabbit. The animals must be arranged according to these clues:
+The Cat is to the left of the Rabbit.
+The Rabbit is not next to the Dog.
+The Dog is in the first position.
+Can you determine the correct order of the animals?
+
+Meeting Room Riddle
+Four meeting rooms are arranged in a row: Room A, Room B, Room C, and Room D. The rooms must be arranged based on these clues:
+Room B is to the left of Room C.
+Room A is not next to Room D.
+Room A is in the first position.
