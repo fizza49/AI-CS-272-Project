@@ -51,7 +51,7 @@ class RiddleSolver:
         self.translations = []
 
     def add_constraint(self, constraint_func, description):
-        """Add a constraint function with its symbolic logic description."""
+        #Add a constraint function with its symbolic logic description.
         self.constraints.append(constraint_func)
         self.translations.append(description)
 
@@ -59,7 +59,6 @@ class RiddleSolver:
         return self.translations
 
     def solve(self):
-        """Solve the riddle by applying all constraints."""
         possible_arrangements = permutations(self.entities)
         valid_arrangements = []
 
@@ -70,10 +69,9 @@ class RiddleSolver:
         return valid_arrangements
 
 
-# Constraint functions for the Order of the Books Riddle
+# Constraint functions for the riddles
 def not_next_to(entity1, entity2):
-    """Ensure entity1 and entity2 are not next to each other."""
-
+ #first object is not next to the second object
     def constraint(arrangement):
         idx1 = arrangement.index(entity1)
         idx2 = arrangement.index(entity2)
@@ -81,10 +79,8 @@ def not_next_to(entity1, entity2):
 
     return constraint
 
-
 def left_of(entity1, entity2):
-    """Ensure entity1 is to the left of entity2."""
-
+   #first object is to the left of second object
     def constraint(arrangement):
         idx1 = arrangement.index(entity1)
         idx2 = arrangement.index(entity2)
@@ -92,9 +88,7 @@ def left_of(entity1, entity2):
 
     return constraint
 
-
 def is_in_position(entity, position):
-    """Ensure entity is in a specific position."""
 
     def constraint(arrangement):
         return arrangement[position - 1] == entity
@@ -102,14 +96,14 @@ def is_in_position(entity, position):
     return constraint
 
 
-# Function to solve the Order of the Books Riddle
+# Order of the Books Riddle
 def solve_order_of_books_riddle():
     entities = ["Math", "Science", "History"]
     positions = [1, 2, 3]
 
     solver = RiddleSolver(entities, positions)
 
-    # Add constraints for the Order of the Books Riddle
+    # adding constraints 
     solver.add_constraint(
         left_of("Math", "Science"),
         "Math book is not on the far left => (Pos(Math) ≠ 1)"
@@ -133,25 +127,25 @@ def solve_order_of_books_riddle():
 
 # Who is in the Middle Riddle
 def solve_who_is_in_the_middle_riddle():
-    entities = ["A", "B", "C"]  # Alice, Bob, Carol
-    positions = [1, 2, 3]  # Positions 1 (left), 2 (middle), 3 (right)
+    entities = ["Alice", "Bob", "Carol"]  
+    positions = [1, 2, 3]  
 
     solver = RiddleSolver(entities, positions)
 
-    # Add constraints for the Who is in the Middle Riddle
+    #  adding constraints
     solver.add_constraint(
-        not_next_to("A", "B"),
-        "¬(NextTo(A, B)) => ¬(|Pos(A) - Pos(B)| = 1)"
+        not_next_to("Alice", "Bob"),
+        "¬(NextTo(Alice, Bob)) => ¬(|Pos(Alice) - Pos(Bob)| = 1)"
     )
 
     solver.add_constraint(
-        left_of("B", "C"),
-        "Pos(B) < Pos(C)"
+        left_of("Bob", "Carol"),
+        "Pos(Bob) < Pos(Carol)"
     )
 
     solver.add_constraint(
-        is_in_position("C", 2),
-        "Pos(C) = 2"
+        is_in_position("Carol", 2),
+        "Pos(Carol) = 2"
     )
 
     translations = solver.show_translations()
@@ -166,6 +160,8 @@ def solve_order_of_fruits_riddle():
     positions = [1, 2, 3]
 
     solver = RiddleSolver(entities, positions)
+
+    #adding constarints 
     solver.add_constraint(
         not_next_to("Apple", "Banana"),
         "Apple is not next to Banana => ¬(NextTo(Apple, Banana))"
@@ -189,6 +185,7 @@ def solve_seating_arrangement_riddle():
     positions = [1, 2, 3, 4]
 
     solver = RiddleSolver(entities, positions)
+    #adidng constarints 
     solver.add_constraint(
         not_next_to("Alice", "Bob"),
         "Alice is not sitting next to Bob => ¬(NextTo(Alice, Bob))"
@@ -602,12 +599,12 @@ riddle_solvers = {
 def main():
     riddles = load_riddles('finalriddles.txt')  # Load riddles from the file
     if not riddles:
-        print("No riddles loaded. Exiting...")
+        print("No riddles loaded. Exiting...")  # if no riddles quit
         pygame.quit()
         sys.exit()
 
     current_riddle = 0
-    is_flipped = False  # Keep track of the flip state
+    is_flipped = False 
     answer = None
 
     while True:

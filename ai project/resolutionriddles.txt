@@ -1,0 +1,49 @@
+The Hat Color Puzzle
+Three prisoners are given hats of two possible colors: red or blue. Each prisoner can see the other two's hats but not their own. They are told:
+At least one hat is red.
+The prisoners guess their hat colors in turns, starting from the first prisoner.
+The first prisoner says, "I donot know."
+The second prisoner says, "I donot know."
+The third prisoner says, "I know!"
+
+The Murder Mystery
+Three suspects (Alice, Bob, and Charlie) were near a crime scene. Only one of them is guilty.
+If Alice is innocent, then Bob is guilty.
+If Bob is innocent, then Charlie is guilty.
+If Charlie is innocent, then Alice is guilty.
+Who is guilty?
+
+The Truth-Tellers and Liars
+You encounter three people, Alice, Bob, and Charlie, who make the following statements:
+Alice: "Bob is a liar."
+Bob: "Charlie is a truth-teller."
+Charlie: "Alice is lying."
+Who is the liar and who is the truth teller
+
+The Mysterious Door
+You stand before three doors: Door 1, Door 2, and Door 3. Behind one of these doors lies a treasure, but only one door leads to it. Here are the clues:
+Exactly one of the doors leads to the treasure.
+Which door leads to the treasure?
+
+The Missing Artifact
+An ancient artifact has gone missing, and it is hidden in one of three rooms: Room 1, Room 2, or Room 3. The following clues are provided:
+The artifact is in one and only one of the three rooms.
+It is impossible for the artifact to be in teo rooms at a time.
+Where is the artifact?
+
+The Key to the Lock Riddle
+You are in a room with three drawers: Top, Middle, and Bottom. One of these drawers contains a key that opens a lock. However, the following clues are provided:
+The key is in one and only one of the drawers.
+The key is not in both the Middle and Bottom drawers at the same time.
+Which drawer contains the key?
+
+The Guilty Twin Riddle
+You are presented with two twins, one of whom is guilty of a crime, while the other is innocent. The guilty twin always lies, and the innocent twin always tells the truth. You do not know which twin is which, but you can ask one question to determine who is guilty.
+Which twin is guilty one?
+
+The Magical Stone Riddle
+You are presented with three chests: Chest 1, Chest 2, and Chest 3. One of these chests contains a magical stone, but the following clues are provided:
+The stone is hidden in one and only one of the chests.
+The stone is not in both Chest 1 and Chest 2 at the same time.
+Which chest contains the magical stone?
+

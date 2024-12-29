@@ -28,6 +28,7 @@ def resolve_sequence(sequence):
     # Resolve Fibonacci Sequence
     if n >= 3 and all(sequence[i] == sequence[i - 1] + sequence[i - 2] for i in range(2, n)):
         return "Fibonacci Sequence", sequence[-1] + sequence[-2]
+    
 
     return None, None
 

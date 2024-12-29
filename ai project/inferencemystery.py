@@ -459,12 +459,12 @@ def draw_navigation_buttons():
 def main():
     riddles = load_riddles('riddles.txt')  # Loading riddles from the file
     if not riddles:
-        print("No riddles loaded. Exiting...")
+        print("No riddles loaded. Exiting...")  # if riddles not displayed quit
         pygame.quit()
         sys.exit()
 
     current_riddle = 0
-    is_flipped = False  # Keep track of the flip state
+    is_flipped = False  
     answer = None
 
     while True:

@@ -97,6 +97,9 @@ def draw_game_selection_screen():
                 elif game4_button_rect.collidepoint(event.pos):
                     open_file("brainquest.py")
                     return
+                elif game5_button_rect.collidepoint(event.pos):
+                    open_file("resolution.py")
+                    return
 
         pygame.display.update()  # Update the display
 
@@ -110,29 +113,34 @@ def draw_game_selection_screen_logic():
         pygame.draw.line(screen, (r, g, b), (0, y), (screen_width, y))
 
     # Draw the title text
-    title_text = font.render("Select a Game", True, TEXT_COLOR)
+    title_text = font.render("Select a Riddle", True, TEXT_COLOR)
     title_rect = title_text.get_rect(center=(screen_width // 2, screen_height // 5))
     screen.blit(title_text, title_rect)
 
-    # Draw Game 1 Button
+    # Draw Riddle 1 Button
     pygame.draw.rect(screen, TEXT_COLOR, game1_button_rect, border_radius=10)
     game1_text = input_font.render("Sequence Solver", True, WHITE)
     screen.blit(game1_text, game1_text.get_rect(center=game1_button_rect.center))
 
-    # Draw Game 2 Button
+    # Draw Riddle 2 Button
     pygame.draw.rect(screen, TEXT_COLOR, game2_button_rect, border_radius=10)
     game2_text = input_font.render("Einstein Riddle", True, WHITE)
     screen.blit(game2_text, game2_text.get_rect(center=game2_button_rect.center))
 
-    # Draw Game 3 Button
+    # Draw Riddle 3 Button
     pygame.draw.rect(screen, TEXT_COLOR, game3_button_rect, border_radius=10)
     game3_text = input_font.render("Inference Mystery", True, WHITE)
     screen.blit(game3_text, game3_text.get_rect(center=game3_button_rect.center))
 
-    # Draw Game 4 Button
+    # Draw Riddle 4 Button
     pygame.draw.rect(screen, TEXT_COLOR, game4_button_rect, border_radius=10)
     game4_text = input_font.render("Brain Quest", True, WHITE)
     screen.blit(game4_text, game4_text.get_rect(center=game4_button_rect.center))
+
+    # Draw Riddle 5 Button
+    pygame.draw.rect(screen, TEXT_COLOR, game5_button_rect, border_radius=10)
+    game5_text = input_font.render("Resolution", True, WHITE)
+    screen.blit(game5_text, game5_text.get_rect(center=game5_button_rect.center))
 
 # Define button dimensions and positions for the game selection screen
 button_width = 400
@@ -143,6 +151,8 @@ game1_button_rect = pygame.Rect((screen_width - button_width) // 2, screen_heigh
 game2_button_rect = pygame.Rect((screen_width - button_width) // 2, screen_height // 3 + button_height + button_spacing, button_width, button_height)
 game3_button_rect = pygame.Rect((screen_width - button_width) // 2, screen_height // 3 + 2 * (button_height + button_spacing), button_width, button_height)
 game4_button_rect = pygame.Rect((screen_width - button_width) // 2, screen_height // 3 + 3 * (button_height + button_spacing), button_width, button_height)
+game5_button_rect = pygame.Rect((screen_width - button_width) // 2, screen_height // 3 + 4 * (button_height + button_spacing), button_width, button_height)
+
 
 # Main loop for the title screen
 def main():
