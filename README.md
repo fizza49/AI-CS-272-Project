@@ -31,9 +31,11 @@
 - Python IDE (Visual Studio Code, Pycharm etc)
 - To run this game, you need to install Pygame and Z3 solver. They can be installed using pip:
 
-bash
+``` C
 pip install pygame
 pip install z3-solver
+```
+
 
  ## Contributors
  [Fizza Kashif](https://github.com/fizza49)
